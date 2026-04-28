@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML</title>
+    <link rel="icon" href="images/basic.png" type="image/png">
+</head>
+<body>
+    <header>
+        <h2>Basic Html</h2>
+    </header>
+    <hr>
+    <nav>
+        <a href="#phrase">Phrase</a><span>|</span>
+        <a href="#font">Font</a><span>|</span>
+        <a href="#header">Header</a><span>|</span>
+        <a href="#list">List</a><span>|</span>
+        <a href="#image">Image</a><span>|</span>
+        <a href="#section">Section</a><span>|</span>
+        <a href="#article">Article</a><span>|</span>
+        <a href="#aside">Aside</a><span>|</span>
+        <a href="#form">Form</a><span>|</span>
+        <a href="#table">Table</a><span>|</span>
+        <a href="#progress">Progress</a>
+    </nav>
+    <h2 id="phrase">Phrase Mark Element</h2>
+    <ul>
+        <li><em>This is an emphasized text.</em></li>
+        <li><strong>This is a strong text.</strong></li>
+        <li><q>This is a inline level qouted text.</q></li>
+        <li><blockquote>This is a block level qoute.</blockquote></li>
+        <li><code>
+            <pre>
+                for(int x;x&lt5;x++){
+                    cout&lt&ltx;
+                }
+            </pre>
+        </code></li>
+        <li><p>This is an <abbr title="abbreviation">abbr</abbr>.</p></li>
+        <li><p><dfn>HTML</dfn> is the standard language used to create web pages.</p></li>
+        <li><p>I watched <cite>Rocky</cite>.</p></li><!--cite is used to represent title of a creative work-->
+        <li><p><mark>This is a highlighted text.</mark></p></li>
+        <li><p>H<sub>2</sub>O</p></li>
+        <li><p>2<sup>3</sup> = 8</p></li>
+        <li><acronym title="Hypertext markup language">HTML</acronym></li>
+        <li>Press <kbd>Ctrl</kbd>+<kbd>C</kbd></li>
+        <li><var>x</var>=10</li>
+    </ul>
+    <h2 id="font">Font Markup Elements</h2>
+    <ol>
+        <li><b>This is a bold text.</b></li>
+        <li><i>This is an italisized text.</i></li>
+        <li><big>This is a bigger text</big></li>
+        <li><small>This is a smaller text</small></li>
+        <li><u>This is an underlined text.</u></li>
+        <li><del>This is a deleted text</del></li>
+        <li><strike>This is a striked text</strike></li>
+        <li>This is a <s>strikethrough</s> text.</li>
+    </ol>
+    <h2 id="header">Headers</h2>
+    <h1>This is an h1 header</h1>
+    <h2>This is an h2 header</h2>
+    <h3>This is an h3 header</h3>
+    <h4>This is an h4 header</h4>
+    <h5>This is an h5 header</h5>
+    <h6>This is an h6 header</h6>
+    <h2 id="list">Lists</h2>
+    <dl>
+        <dt>Ordered list</dt>
+        <dd><p>Used when order matters</p></dd>
+        <dt>Unordered list</dt>
+        <dd><p>Used when order doesn&apos;t matter</p></dd>
+        <dt>Description list</dt>
+        <dd><p>Used for definitions or key–value pairs</p></dd>
+    </dl>
+    <h2 id="image">Image</h2>
+    <figure>
+        <a href="https://en.wikipedia.org/wiki/Puppy" title="Puppies wekipedia" target="blank">
+            <img src="Images/Puupy lovers/puppy-2.jpg">
+        </a>
+        <figcaption>Image of a puppy</figcaption>
+    </figure>
+    <h2>Semantic Tags</h2>
+    <section id="section">
+        <h3>Section</h3>
+        <p>A section is a thematic grouping of content, typically with a heading.</p>
+        <p>Examples of where a &ltsection&gt element can be used:</p>  
+        <ul>
+            <li>Chapters</li>
+            <li>Introduction</li>
+            <li>News items</li>
+            <li>Contact information</li>
+        </ul>
+        <p>A web page could normally be split into sections for introduction, content, and contact information.</p>
+    </section>
+    <article id="article">
+        <h3>Article</h3>
+        <p>The &ltarticle&gt element specifies independent, self-contained content.
+            An article should make sense on its own, and it should be possible to distribute it independently from the rest of the web site.
+            <br>Examples of where the &ltarticle&gt element can be used:</p>
+        <ul>
+            <li>Forum posts</li>
+            <li>Blog posts</li>
+            <li>User comments</li>
+            <li>Product cards</li>
+            <li>Newspaper articles</li>
+        </ul>
+    </article>
+    <aside style=" width: 30%;padding-left: 15px;margin-left: 15px;font-style: italic;background-color: lightgray;" id="aside">
+        <h3>Aside</h3>
+        <p>The &ltaside&gt element defines some content aside from the content it is placed in (like a sidebar).
+        The &ltaside&gt content should be indirectly related to the surrounding content.</p>
+    </aside>
+    <details>
+        <summary>
+            Other Semantic Tags
+        </summary>
+        <p>Aside</p>
+        <p>Section</p>
+        <p>Article</p>
+        <p>Nav</p>
+        <p>Header</p>
+        <p>Footer</p>
+        <p>Hgroup</p>
+    </details>
+    <h2>Non-Semantic Tags</h2>
+    <div>
+        <h3>Div</h3>
+        <p>The &ltdiv&gt element is often used as a container for other HTML elements.
+            The &ltdiv&gt element has no required attributes, but style, class and id are common.
+            When used together with CSS, the &ltdiv&gt element can be used to style blocks of content:
+        </p>
+    </div>
+    <span>
+        <h3>Span</h3>
+        <p>The &ltspan&gt element is an inline container used to mark up a part of a text, or a part of a document.
+        The &ltspan&gt element has no required attributes, but style, class and id are common.
+        When used together with CSS, the &ltspan&gt element can be used to style parts of the text
+        </p>
+    </span>
+    <h2>Media</h2>
+    <audio src="test.mp3" controls></audio>
+    <br><br>
+    <video src="test.mp4" controls></video>
+    <br><br>
+    <iframe src="https://www.youtube.com/embed/sdfaafafafsfddrfwe" width="500" height="300"></iframe>
+    <h2>Forms</h2>
+    <form id="form">
+        <label>Username:</label>
+        <input type="text" id="username" placeholder="John Smith" maxlength="30" minlength="5" required><br><br>
+        <label>Phone number:</label>
+        <input type="tel" id="phone number" placeholder="0912345678"><br><br>
+        <label>Email:</label>
+        <input type="email" id="email" placeholder="hilcoe@gmail.com" required><br><br>
+        <label>Password:</label>
+        <input type="password" id="password"> <br><br>
+        <label>Birthdate:</label>
+        <input type="date" id="bday" value="2026-04-28"><br><br>
+        <label>Number:</label>
+        <input type="number" min="0" max="100" value="1" step="5"><br><br>
+        <label name="title">Title:</label>
+        <label>Mr.</label>
+        <input type="radio" value="Mr." name="title">
+        <label>Ms.</label>
+        <input type="radio" value="Ms." name="title">
+        <label>PhD.</label>
+        <input type="radio" value="PhD." name="title">
+        <br><br>
+        <label for="payment">Payment:</label>
+        <select id="payment">
+            <option value="visa">Visa</option>
+            <option value="mastercard">Master card</option>
+            <option value="cash">Cash</option>
+        </select><br><br>
+        <label name="gender">Gender:</label>
+        <select name="gender">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+        <label>Skills:</label>
+        <label>HTML:</label>
+        <input type="checkbox">
+        <label>CSS:</label>
+        <input type="checkbox">
+        <label>Javascript:</label>
+        <input type="checkbox">
+        <br><br>
+        <label>Range:</label>
+        <input type="range" min="0" max="100" value="60"><br><br>
+        <label></label>
+        <label>URL:</label>
+        <input type="url" name="url1"><br><br>
+        <label>Color:</label>
+        <input type="color" default><br><br>
+        <label>Search:</label>
+        <input type="search" name="search1"><br><br>
+        <label>Comment:</label>
+        <textarea cols="50" rows="20"></textarea>
+        <br><br>
+        <label>File:</label>
+        <input type="file" accept="image/jpg,image/png">
+        <br><br>
+        <input type="reset">
+        <br><br>
+        <input type="submit">
+    </form>
+    <h2 id="table">Table</h2>
+    <table border="2" style="caption-side: bottom;">
+        <caption>This is a table</caption>
+        <tr>
+            <th bgcolor="lightblue" colspan="2">1</td>
+            
+            <th>3</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightblue">Monday</td>
+            <td>Tuesday</td>
+            <td rowspan="2">Wednesday</td>
+        </tr>
+        <tr>
+            <td bgcolor="lightblue">Thursday</td>
+            <td>Friday</td>
+        </tr>
+    </table>
+    <h2 id="progress">Progress and Meter</h2>
+    <label>Meter:</label>
+    <meter value="70" min="0" max="100"></meter><span>70%</span>
+    <br><br>
+    <label>Progress:</label>
+    <progress value="50" max="100"></progress><br><br>
+    <hr>
+    <footer>
+        <p>&copy;Copyrighthtml |
+            <a href="#">basichtml@gmail.com</a>
+        </p>
+    </footer>
+</body>
+</html>
