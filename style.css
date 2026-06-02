@@ -150,6 +150,7 @@ header{
     list-style: none;
 }
 .main-highlight-wrapper .model{
+    margin-top: 50px;
     font-size: 0.85e
 }
 .main-highlight-wrapper .product-title{
