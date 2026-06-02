@@ -38,7 +38,7 @@
 
 .wrapper2-text {
     background: #e94b5a;
-    font-size: 32px; 
+    font-size: 4vw; 
     font-weight: 500;
     font-family: Calibri, sans-serif;
     display: flex;
@@ -47,9 +47,9 @@
     text-align: center;
 }
 .wrapper3{
-    padding: 30px;
+    padding: 4vw;
     text-align: center;
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: 900;
     font-family: Calibri;
 }
@@ -67,7 +67,7 @@
     background: #0e4b63;
     color: white;
     text-align: center;
-    font-size: 40px;
+    font-size: 4vw;
     font-weight: 700;
     font-family: Calibri;
     padding-top: 40px;

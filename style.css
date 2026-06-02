@@ -23,7 +23,7 @@ body{
     list-style: none;
 }
 .internal-wrapper{
-    width: 980px;
+    max-width: 980px;
     padding: 0 10px;
     margin: 0 auto;
 }
@@ -58,6 +58,7 @@ body{
     background: #f5f5f7;
     color: #1d1d1f;
     font-size: .65em;
+    padding: 0 10px;
 }
 .upper-footer-container{
     border-bottom: 1px solid #d2d2d7;
@@ -268,6 +269,7 @@ body{
 }
 .fourth-highlight-wrapper .left-side-wrapper{
     height: 580px;
+    background-image: url(../images/home/watch-series-5.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -275,28 +277,22 @@ body{
     width: 48.5%;
     margin: 1% 1% 0% 0.5%;
     padding-top: 54px;
-    background-image: url(../images/home/watch-series-5.jpg);
 }
-.fourth-highlight-wrapper .links-wrapper ul,
 .fourth-highlight-wrapper .links-wrapper ul{
     list-style: none;
     padding: 15px 0;
 }
-.fourth-highlight-wrapper .links-wrapper ul li,
 .fourth-highlight-wrapper .links-wrapper ul li{
     display: inline-block;
     padding-right: 20px;
 }
-.fourth-highlight-wrapper .links-wrapper ul li a,
 .fourth-highlight-wrapper .links-wrapper ul li a{
     text-decoration: none;
     color: #06c;
 }
-.fourth-highlight-wrapper .links-wrapper ul li a:hover,
 .fourth-highlight-wrapper .links-wrapper ul li a:hover{
     color: #000;
 }
-.fourth-highlight-wrapper .links-wrapper ul li a:after,
 .fourth-highlight-wrapper .links-wrapper ul li a:after{
     font-family: "FontAwesome";
     font-weight: 900;
@@ -305,6 +301,7 @@ body{
 }
 .fourth-highlight-wrapper .right-side-wrapper{
     height: 580px;
+    background-image: url(../images/home/apple-card.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -312,7 +309,6 @@ body{
     width: 48.5%;
     margin: 1% 1% 0% 0.5%;
     padding-top: 54px;
-    background-image: url(../images/home/apple-card.jpg);
 }
 /*fifth-highlight-wrapper*/
 .fifth-highlight-wrapper{
@@ -323,6 +319,7 @@ body{
 }
 .fifth-highlight-wrapper .left-side-wrapper{
     height: 580px;
+    background-image: url(../images/home/apple-tv-background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -330,14 +327,14 @@ body{
     width: 48.5%;
     margin: 1% 1% 0% 0.5%;
     padding-top: 54px;
-    background-image: url(../images/home/apple-tv-background.jpg);
 }
 .fifth-highlight-wrapper .right-side-wrapper{
     color: #fff;
     width:100%;
-    background-position: center;
+    background: #000;
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: initial;
     text-align: center;
     width: 48.5%;
     margin: 1% 1% 0% 0.5%;
@@ -352,15 +349,17 @@ body{
     display: inline-block;
     padding-right: 20px;
 }
-.fifth-highlight-wrapper  .tvshow-logo-wrapper{
-    padding: 30% 0;
+.fifth-highlight-wrapper  .logo-wrapper{
+    font-size: 40px;
+    font-weight: bold;
 }
-.fifth-highlight-wrapper .watch-more-wrapper {
-    padding: 5px;
+.fifth-highlight-wrapper  .tvshow-logo-wrapper{
+    padding: 180px 0 200px;
 }
 .fifth-highlight-wrapper .watch-more-wrapper a{
     text-decoration: none;
     color: blue;
+    font-size: 0.85em;
 }
 .fifth-highlight-wrapper .links-wrapper ul li a{
     text-decoration: none;
@@ -390,34 +389,32 @@ body{
     -webkit-box-pack: justify;
     justify-content: space-between;
     background: #fff;
+    padding-bottom: 10px;
 }
 .sixth-highlight-wrapper .left-side-wrapper{
-    height: 400px;
-    background-position: center;
+    height: 580px;
+    background: #fafafa;
+    background-image: url("../images/home/macbook-pro.jpg");
+    background-position: bottom;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: initial;
     text-align: center;
     width: 48.5%;
     margin: 1% 1% 0% 0.5%;
     padding-top: 54px;
-    background: #fafafa;
 }
-.sixth-highlight-wrapper .links-wrapper ul,
 .sixth-highlight-wrapper .links-wrapper ul{
     list-style: none;
     padding: 15px 0;
 }
-.sixth-highlight-wrapper .links-wrapper ul li,
 .sixth-highlight-wrapper .links-wrapper ul li{
     display: inline-block;
     padding-right: 20px;
 }
-.sixth-highlight-wrapper .links-wrapper ul li a,
 .sixth-highlight-wrapper .links-wrapper ul li a{
     text-decoration: none;
     color: #06c;
 }
-.sixth-highlight-wrapper .links-wrapper ul li a:hover,
 .sixth-highlight-wrapper .links-wrapper ul li a:hover{
     color: #000;
 }
@@ -429,7 +426,7 @@ body{
     padding: 10px;
 }
 .sixth-highlight-wrapper .right-side-wrapper{
-    height: 500px;
+    height: 580px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
