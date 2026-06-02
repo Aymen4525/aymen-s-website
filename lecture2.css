@@ -1,0 +1,35 @@
+div p{
+    color: blue;
+}
+div > p{
+    color:red;
+}
+h2 + p{
+    color:purple;
+}
+h2 ~ p{
+    color:orange;
+}
+input[type="text"], input[type="password"]
+{
+    border: 2px solid blue;
+}
+a:link{
+    text-decoration: none;
+    background: maroon;
+    color: white;
+    display:block;
+    padding:5px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    background: orange;
+}
+a:active{
+    background: green;
+}
